@@ -1,0 +1,100 @@
+/* http://css-tricks.com/perfect-full-page-background-image/ */
+html {
+    /*background: url(img/6133364748_89f2365922_o.jpg) no-repeat center center fixed;*/
+    background: url(img/9476031620_b8028fd567_o.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "Open sans",serif;
+    background: transparent;
+}
+
+h1 {
+    font-family: "Abel", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Abel", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 500px;
+}
+
+.margin-base-vertical {
+    margin: 40px 0;
+}
+
+.habit-days-container{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.clear{
+  clear:both;
+}
+
+.habit-day{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  padding-top: 40px;
+  margin: 2px;
+  float: left;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.ajax-loader{
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin-top: -35px;
+  padding: 10px;
+  background-image: url(img/ajax-loader.gif);
+  background-repeat: no-repeat;
+}
+
+.successful {
+  background-color: #b7fe9a;
+}
+
+.unsuccessful {
+  background-color: #fe9a9a;
+}
+
+.logout{
+  padding-top: 10px;
+}
+
+form{
+  margin-top: 50px;
+}
+
+input{
+  margin-bottom: 10px;
+}
+
+input:required:invalid, input:focus:invalid {
+  background-image: url(img/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+input:required:valid {
+  background-image: url(img/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
