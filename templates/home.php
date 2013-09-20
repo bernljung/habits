@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- https://github.com/bernljung/habits -->
+        <title>Habits</title>
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <link href="/media/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="/media/css/style.css">
